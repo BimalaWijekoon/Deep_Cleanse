@@ -1,20 +1,3 @@
-{
-    "gaussian": {
-        "psnr": 30.73436080975312,
-        "ssim": 0.8747876079712973,
-        "psnr_improvement": 13.462845688195214,
-        "ssim_improvement": 0.6917537065304536
-    },
-    "salt_pepper": {
-        "psnr": 35.616338360109424,
-        "ssim": 0.971338203460702,
-        "psnr_improvement": 17.437697937029494,
-        "ssim_improvement": 0.48113574645654156
-    },
-    "speckle": {
-        "psnr": 34.865547292731996,
-        "ssim": 0.9547007574838666,
-        "psnr_improvement": 7.013952129415987,
-        "ssim_improvement": 0.35202940148161477
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:575fc70db717b2210206f1ef1b2b615317b0bff39644499d8035c2f11c8e0b84
+size 579

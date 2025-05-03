@@ -1,36 +1,3 @@
-{
-    "gaussian_low": {
-        "psnr": 21.392240594851007,
-        "ssim": 0.6026536049983495,
-        "psnr_improvement": 12.285825737841142,
-        "ssim_improvement": 0.5494912761082495,
-        "processing_time": 0.9027604282730155
-    },
-    "gaussian_high": {
-        "psnr": 21.39653580341998,
-        "ssim": 0.6033727535872053,
-        "psnr_improvement": 12.290390151954881,
-        "ssim_improvement": 0.5501331461289264,
-        "processing_time": 0.9542657786773311
-    },
-    "salt_pepper": {
-        "psnr": 22.83702586006108,
-        "ssim": 0.880712494790527,
-        "psnr_improvement": 12.970492458482136,
-        "ssim_improvement": 0.5216669594798359,
-        "processing_time": 0.809064328773982
-    },
-    "speckle": {
-        "psnr": 25.52281171351093,
-        "ssim": 0.7765662832135494,
-        "psnr_improvement": 11.600811560930053,
-        "ssim_improvement": 0.5662774470314118,
-        "processing_time": 0.8191232041766247
-    },
-    "overall": {
-        "psnr": 22.787153492960748,
-        "ssim": 0.7158262841474078,
-        "psnr_improvement": 12.286879977302053,
-        "ssim_improvement": 0.5468922071871058
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6073c775e49dd5e117690a8ed083bf26380ec6e01baa5a39627291b15449596a
+size 1190

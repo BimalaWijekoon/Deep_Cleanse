@@ -1,15 +1,3 @@
-{
-  "short_name": "DeepCleanse",
-  "name": "DeepCleanse - Advanced Media Denoiser",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#0f172a",
-  "background_color": "#0f172a"
-} 
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ef6165dec3f405f97df5b6e7c46f0f23efb13a9e6c56df1e769430290e11e3d
+size 336

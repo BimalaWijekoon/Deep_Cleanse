@@ -1,30 +1,51 @@
+# Image formats
 **/*.png filter=lfs diff=lfs merge=lfs -text
 **/*.jpg filter=lfs diff=lfs merge=lfs -text
 **/*.jpeg filter=lfs diff=lfs merge=lfs -text
+# ML model files
 **/*.pth filter=lfs diff=lfs merge=lfs -text
 **/*.h5 filter=lfs diff=lfs merge=lfs -text
+**/*.keras filter=lfs diff=lfs merge=lfs -text
 **/*.pkl filter=lfs diff=lfs merge=lfs -text
+# Validation metrics and results
 Python/ImageDenoise/Validations/*/metrics/**/* filter=lfs diff=lfs merge=lfs -text
-Python/AuidoDenoise/
-Validations/*/metrics/**/* filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-# Specific patterns for model evaluation images
+Python/AuidoDenoise/Validations/*/metrics/**/* filter=lfs diff=lfs merge=lfs -text
+# Model architecture files
+Python/ImageDenoise/BaseModels/*.json filter=lfs diff=lfs merge=lfs -text
+Python/ImageDenoise/BaseModels/*.h5 filter=lfs diff=lfs merge=lfs -text
+Python/ImageDenoise/BaseModels/*.keras filter=lfs diff=lfs merge=lfs -text
+Python/ImageDenoise/BaseModels/*.weights.h5 filter=lfs diff=lfs merge=lfs -text
+# Audio model files
+Python/AuidoDenoise/BaseModels/*.json filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/BaseModels/*.h5 filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/BaseModels/*.keras filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/BaseModels/*.weights.h5 filter=lfs diff=lfs merge=lfs -text
+# Fine-tuned model files
+Python/ImageDenoise/FineTunedModels/*.h5 filter=lfs diff=lfs merge=lfs -text
+Python/ImageDenoise/FineTunedModels/*.keras filter=lfs diff=lfs merge=lfs -text
+Python/ImageDenoise/FineTunedModelsv2/*.h5 filter=lfs diff=lfs merge=lfs -text
+Python/ImageDenoise/FineTunedModelsv2/*.keras filter=lfs diff=lfs merge=lfs -text
+# Fine-tuned audio model files
+Python/AuidoDenoise/FineTunedModels/*.h5 filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/FineTunedModels/*.keras filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/FineTunedModelsv2/*.h5 filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/FineTunedModelsv2/*.keras filter=lfs diff=lfs merge=lfs -text
+# Specific patterns for model evaluation images and results
 Python/ImageDenoise/**/*results.png filter=lfs diff=lfs merge=lfs -text
 Python/ImageDenoise/**/*curves.png filter=lfs diff=lfs merge=lfs -text
-Python/AuidoDenoise/**/*results.png filter=lfs diff=lfs merge=lfs -text
-Python/AuidoDenoise/**/*curves.png filter=lfs diff=lfs merge=lfs -text
-Python/*/Validations/**/*.png filter=lfs diff=lfs merge=lfs -text
-Python/*/Validations/**/*.jpg filter=lfs diff=lfs merge=lfs -text
-Python/*/Validations/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
-Python/*/Validations/**/*.json filter=lfs diff=lfs merge=lfs -text
-Python/*/Validations/**/*.csv filter=lfs diff=lfs merge=lfs -text
 Python/ImageDenoise/Validations/**/*.png filter=lfs diff=lfs merge=lfs -text
+Python/ImageDenoise/Validations/**/*.json filter=lfs diff=lfs merge=lfs -text
+Python/ImageDenoise/Validations/**/*.csv filter=lfs diff=lfs merge=lfs -text
 Python/AuidoDenoise/Validations/**/*.png filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/Validations/**/*.json filter=lfs diff=lfs merge=lfs -text
 Python/ImageDenoise/BaseModels/*.png filter=lfs diff=lfs merge=lfs -text
 Python/AuidoDenoise/BaseModels/*.png filter=lfs diff=lfs merge=lfs -text
 Python/ImageDenoise/FineTunedModels/*.png filter=lfs diff=lfs merge=lfs -text
 Python/AuidoDenoise/FineTunedModels/*.png filter=lfs diff=lfs merge=lfs -text
 Python/ImageDenoise/FineTunedModelsv2/*.png filter=lfs diff=lfs merge=lfs -text
 Python/AuidoDenoise/FineTunedModelsv2/*.png filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/**/*results.png filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/**/*curves.png filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.keras filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text

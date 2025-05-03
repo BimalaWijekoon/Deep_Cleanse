@@ -32,33 +32,14 @@ frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/public/sounds
-Python/ImageDenoise/Validations/validation
 
-# Adding model files inside Python/ImageDenoise to .gitignore
-Python/ImageDenoise/**/*.h5
-Python/ImageDenoise/**/*.keras
-Python/ImageDenoise/**/*.weights.h5
-
-# Adding model files inside Python/AuidoDenoise to .gitignore
-Python/AuidoDenoise/**/*.h5
-Python/AuidoDenoise/**/*.keras
-Python/AuidoDenoise/**/*.weights.h5
-
-# Adding backend node_modules folder to .gitignore
+# Backend node_modules
 backend/node_modules/
 
 # Python specific ignores
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Keep ignoring large model files but allow metrics and visualizations
-Python/ImageDenoise/**/*.h5
-Python/ImageDenoise/**/*.keras
-Python/ImageDenoise/**/*.weights.h5
-Python/AuidoDenoise/**/*.h5
-Python/AuidoDenoise/**/*.keras
-Python/AuidoDenoise/**/*.weights.h5
 
 # Large training files and numpy arrays
 Python/ImageDenoise/BaseModels/train_images.npy
@@ -68,27 +49,31 @@ Python/ImageDenoise/BaseModels/logs/
 Python/AuidoDenoise/BaseModels/training_data/
 Python/AuidoDenoise/BaseModels/validation_data/
 
-# Remove image exclusions to allow tracking of important visualizations
-# *.jpg
-# *.jpeg
-# *.png
-# *.gif
-# *.bmp
-# *.tiff
-# *.tif
-# *.webp
-# *.ico
-# *.svg
-# *.raw
-# *.psd
-# *.ai
-# *.eps
+# Image denoising model files
+Python/ImageDenoise/BaseModels/*.h5
+Python/ImageDenoise/BaseModels/*.keras
+Python/ImageDenoise/BaseModels/denoising_autoencoder_architecture.json
+Python/ImageDenoise/BaseModels/*.weights.h5
+Python/ImageDenoise/FineTunedModels/*.h5
+Python/ImageDenoise/FineTunedModels/*.keras
+Python/ImageDenoise/FineTunedModelsv2/*.h5
+Python/ImageDenoise/FineTunedModelsv2/*.keras
+Python/ImageDenoise/Validations/**/*.json
+Python/ImageDenoise/Validations/**/metrics/**/*
 
-# Only exclude specific large image datasets
-Python/ImageDenoise/noisy images/
-Python/ImageDenoise/**/test_denoising_results.png
-Python/ImageDenoise/**/training_curves.png
-Python/ImageDenoise/**/validation_results.png
+# Audio denoising model files
+Python/AuidoDenoise/BaseModels/*.h5
+Python/AuidoDenoise/BaseModels/*.keras
+Python/AuidoDenoise/BaseModels/audio_denoiser_architecture.json
+Python/AuidoDenoise/BaseModels/*.weights.h5
+Python/AuidoDenoise/FineTunedModels/*.h5
+Python/AuidoDenoise/FineTunedModels/*.keras
+Python/AuidoDenoise/FineTunedModelsv2/*.h5
+Python/AuidoDenoise/FineTunedModelsv2/*.keras
+Python/AuidoDenoise/Validations/**/*.json
+Python/AuidoDenoise/Validations/**/metrics/**/*
+
+
 
 
 
