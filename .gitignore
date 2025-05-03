@@ -49,30 +49,6 @@ Python/ImageDenoise/BaseModels/logs/
 Python/AuidoDenoise/BaseModels/training_data/
 Python/AuidoDenoise/BaseModels/validation_data/
 
-# Image denoising model files
-Python/ImageDenoise/BaseModels/*.h5
-Python/ImageDenoise/BaseModels/*.keras
-Python/ImageDenoise/BaseModels/denoising_autoencoder_architecture.json
-Python/ImageDenoise/BaseModels/*.weights.h5
-Python/ImageDenoise/FineTunedModels/*.h5
-Python/ImageDenoise/FineTunedModels/*.keras
-Python/ImageDenoise/FineTunedModelsv2/*.h5
-Python/ImageDenoise/FineTunedModelsv2/*.keras
-Python/ImageDenoise/Validations/**/*.json
-Python/ImageDenoise/Validations/**/metrics/**/*
-
-# Audio denoising model files
-Python/AuidoDenoise/BaseModels/*.h5
-Python/AuidoDenoise/BaseModels/*.keras
-Python/AuidoDenoise/BaseModels/audio_denoiser_architecture.json
-Python/AuidoDenoise/BaseModels/*.weights.h5
-Python/AuidoDenoise/FineTunedModels/*.h5
-Python/AuidoDenoise/FineTunedModels/*.keras
-Python/AuidoDenoise/FineTunedModelsv2/*.h5
-Python/AuidoDenoise/FineTunedModelsv2/*.keras
-Python/AuidoDenoise/Validations/**/*.json
-Python/AuidoDenoise/Validations/**/metrics/**/*
-
 
 
 

@@ -49,3 +49,7 @@ Python/AuidoDenoise/**/*curves.png filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
 *.keras filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
+**/*.weights.h5 filter=lfs diff=lfs merge=lfs -text
+**/model_*.json filter=lfs diff=lfs merge=lfs -text
+**/denoising_*.json filter=lfs diff=lfs merge=lfs -text
+**/audio_*.json filter=lfs diff=lfs merge=lfs -text
