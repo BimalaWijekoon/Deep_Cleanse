@@ -52,7 +52,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Keep ignoring large model files but allow metrics
+# Keep ignoring large model files but allow metrics and visualizations
 Python/ImageDenoise/**/*.h5
 Python/ImageDenoise/**/*.keras
 Python/ImageDenoise/**/*.weights.h5
@@ -68,22 +68,23 @@ Python/ImageDenoise/BaseModels/logs/
 Python/AuidoDenoise/BaseModels/training_data/
 Python/AuidoDenoise/BaseModels/validation_data/
 
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.tiff
-*.tif
-*.webp
-*.ico
-*.svg
-*.raw
-*.psd
-*.ai
-*.eps
+# Remove image exclusions to allow tracking of important visualizations
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+# *.tiff
+# *.tif
+# *.webp
+# *.ico
+# *.svg
+# *.raw
+# *.psd
+# *.ai
+# *.eps
 
-# Excluding specific image folders
+# Only exclude specific large image datasets
 Python/ImageDenoise/noisy images/
 Python/ImageDenoise/**/test_denoising_results.png
 Python/ImageDenoise/**/training_curves.png
