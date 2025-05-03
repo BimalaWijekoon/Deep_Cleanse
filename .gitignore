@@ -1,0 +1,83 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.venv
+
+# frontend node_modules
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/public/sounds
+Python/ImageDenoise/Validations/validation
+# Adding metrics folder inside Python/ImageDenoise/Validations to .gitignore
+Python/ImageDenoise/Validations/*/metrics/
+
+# Adding metrics folder inside Python/AuidoDenoise/Validations to .gitignore
+Python/AuidoDenoise/Validations/*/metrics/
+
+# Adding model files inside Python/ImageDenoise to .gitignore
+Python/ImageDenoise/**/*.h5
+Python/ImageDenoise/**/*.keras
+Python/ImageDenoise/**/*.weights.h5
+
+# Adding model files inside Python/AuidoDenoise to .gitignore
+Python/AuidoDenoise/**/*.h5
+Python/AuidoDenoise/**/*.keras
+Python/AuidoDenoise/**/*.weights.h5
+
+# Adding backend node_modules folder to .gitignore
+backend/node_modules/
+
+# Temporarily ignoring backend and Python folders
+/backend/
+/Python/
+/frontend/
+
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.ico
+*.svg
+*.raw
+*.psd
+*.ai
+*.eps
+
+# Excluding specific image folders
+Python/ImageDenoise/noisy images/
+Python/ImageDenoise/**/test_denoising_results.png
+Python/ImageDenoise/**/training_curves.png
+Python/ImageDenoise/**/validation_results.png
+
+
+
+
