@@ -4,3 +4,9 @@
 **/*.pth filter=lfs diff=lfs merge=lfs -text
 **/*.h5 filter=lfs diff=lfs merge=lfs -text
 **/*.pkl filter=lfs diff=lfs merge=lfs -text
+Python/ImageDenoise/Validations/*/metrics/**/* filter=lfs diff=lfs merge=lfs -text
+Python/AuidoDenoise/
+Validations/*/metrics/**/* filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
