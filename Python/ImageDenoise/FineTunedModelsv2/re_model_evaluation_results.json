@@ -1,0 +1,20 @@
+{
+    "gaussian": {
+        "psnr": 26.418256348293212,
+        "ssim": 0.7841785702144388,
+        "psnr_improvement": 8.990785960962999,
+        "ssim_improvement": 0.5496594057194488
+    },
+    "salt_pepper": {
+        "psnr": 26.968054171746573,
+        "ssim": 0.8710452786607299,
+        "psnr_improvement": 9.055690235654021,
+        "ssim_improvement": 0.3507675847533252
+    },
+    "speckle": {
+        "psnr": 26.232859365769972,
+        "ssim": 0.8632346131252306,
+        "psnr_improvement": -1.4421565842464887,
+        "ssim_improvement": 0.2134699171073379
+    }
+}

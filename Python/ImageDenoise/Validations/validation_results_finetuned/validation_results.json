@@ -1,0 +1,36 @@
+{
+    "gaussian_low": {
+        "psnr": 20.991443349660994,
+        "ssim": 0.5355457448731306,
+        "psnr_improvement": 11.885531705875712,
+        "ssim_improvement": 0.48231612794518447,
+        "processing_time": 0.9859911055407591
+    },
+    "gaussian_high": {
+        "psnr": 21.00412834833715,
+        "ssim": 0.5361699524995273,
+        "psnr_improvement": 11.898555145681408,
+        "ssim_improvement": 0.48307508685480266,
+        "processing_time": 0.9591427572692434
+    },
+    "salt_pepper": {
+        "psnr": 20.344888220472676,
+        "ssim": 0.6510623514577935,
+        "psnr_improvement": 10.352807115777464,
+        "ssim_improvement": 0.2919753984399874,
+        "processing_time": 0.7865638281736109
+    },
+    "speckle": {
+        "psnr": 25.81443681795477,
+        "ssim": 0.7597289270399449,
+        "psnr_improvement": 11.894771751071232,
+        "ssim_improvement": 0.5494168414032374,
+        "processing_time": 0.7793641543636719
+    },
+    "overall": {
+        "psnr": 22.0387241841064,
+        "ssim": 0.620626743967599,
+        "psnr_improvement": 11.507916429601455,
+        "ssim_improvement": 0.451695863660803
+    }
+}

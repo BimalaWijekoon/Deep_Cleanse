@@ -1,0 +1,57 @@
+IMAGE DENOISING MODEL VALIDATION REPORT
+=====================================
+
+SUMMARY BY NOISE TYPE
+-----------------
+
+GAUSSIAN_LOW:
+  Average PSNR: 16.66 dB
+  Average SSIM: 0.3732
+  Average PSNR Improvement: +7.57 dB
+  Average SSIM Improvement: +0.2877
+  Average Processing Time: 0.5342 seconds
+
+GAUSSIAN_HIGH:
+  Average PSNR: 16.66 dB
+  Average SSIM: 0.3733
+  Average PSNR Improvement: +7.58 dB
+  Average SSIM Improvement: +0.2881
+  Average Processing Time: 0.4260 seconds
+
+SALT_PEPPER:
+  Average PSNR: 17.19 dB
+  Average SSIM: 0.3860
+  Average PSNR Improvement: +7.15 dB
+  Average SSIM Improvement: +0.0124
+  Average Processing Time: 0.4232 seconds
+
+SPECKLE:
+  Average PSNR: 18.26 dB
+  Average SSIM: 0.4597
+  Average PSNR Improvement: +4.40 dB
+  Average SSIM Improvement: +0.1850
+  Average Processing Time: 0.4127 seconds
+
+OVERALL PERFORMANCE:
+------------------
+  Average PSNR: 17.19 dB
+  Average SSIM: 0.3981
+  Average PSNR Improvement: +6.67 dB
+  Average SSIM Improvement: +0.1933
+
+AREAS FOR IMPROVEMENT:
+---------------------
+1. The model performs worst on gaussian_high noise.
+   Consider fine-tuning specifically for this noise type.
+
+2. Common characteristics in worst-performing images:
+   - Consider fine-tuning on images with high-frequency details or textures
+   - Test more augmentation techniques during training
+   - Consider adaptive noise level estimation to handle varying noise levels
+
+RECOMMENDATIONS:
+---------------
+1. Fine-tune the model with mixed noise types for better generalization
+2. Consider increasing the depth or capacity of the model
+3. Experiment with attention mechanisms to better handle complex textures
+4. Implement a noise level estimation module for adaptive denoising

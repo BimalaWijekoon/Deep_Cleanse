@@ -1,0 +1,67 @@
+v1
+Evaluating gaussian_low noise...
+
+GAUSSIAN_LOW:
+  Average PSNR: 20.99 dB
+  Average SSIM: 0.5355
+  Average PSNR Improvement: 11.89 dB
+  Average SSIM Improvement: 0.4823
+  Average Processing Time: 0.9860 seconds
+Evaluating gaussian_high noise...
+
+GAUSSIAN_HIGH:
+  Average PSNR: 21.00 dB
+  Average SSIM: 0.5362
+  Average PSNR Improvement: 11.90 dB
+  Average SSIM Improvement: 0.4831
+  Average Processing Time: 0.9591 seconds
+Evaluating salt_pepper noise...
+
+SALT_PEPPER:
+  Average PSNR: 20.34 dB
+  Average SSIM: 0.6511
+  Average PSNR Improvement: 10.35 dB
+  Average SSIM Improvement: 0.2920
+  Average Processing Time: 0.7866 seconds
+Evaluating speckle noise...
+
+SPECKLE:
+  Average PSNR: 25.81 dB
+  Average SSIM: 0.7597
+  Average PSNR Improvement: 11.89 dB
+  Average SSIM Improvement: 0.5494
+  Average Processing Time: 0.7794 seconds
+
+OVERALL PERFORMANCE:
+  Average PSNR: 22.04 dB
+  Average SSIM: 0.6206
+  Average PSNR Improvement: 11.51 dB
+  Average SSIM Improvement: 0.4517
+
+COMPARISON WITH ORIGINAL VALIDATION REPORT:
+
+Noise Type Comparison:
+
+GAUSSIAN_LOW:
+  Original PSNR: 18.70 | Current PSNR: 20.99
+  Original SSIM: 0.5134 | Current SSIM: 0.5355
+  Original PSNR Improvement: 7.41 | Current PSNR Improvement: 11.89
+  Original SSIM Improvement: 0.1662 | Current SSIM Improvement: 0.4823
+
+GAUSSIAN_HIGH:
+  Original PSNR: 18.59 | Current PSNR: 21.00
+  Original SSIM: 0.4846 | Current SSIM: 0.5362
+  Original PSNR Improvement: 1.72 | Current PSNR Improvement: 11.90
+  Original SSIM Improvement: 0.1572 | Current SSIM Improvement: 0.4831
+
+SALT_PEPPER:
+  Original PSNR: 18.58 | Current PSNR: 20.34
+  Original SSIM: 0.4885 | Current SSIM: 0.6511
+  Original PSNR Improvement: 0.04 | Current PSNR Improvement: 10.35
+  Original SSIM Improvement: -0.0957 | Current SSIM Improvement: 0.2920
+
+SPECKLE:
+  Original PSNR: 18.65 | Current PSNR: 25.81
+  Original SSIM: 0.5134 | Current SSIM: 0.7597
+  Original PSNR Improvement: -8.40 | Current PSNR Improvement: 11.89
+  Original SSIM Improvement: -0.2357 | Current SSIM Improvement: 0.5494

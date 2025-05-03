@@ -1,0 +1,67 @@
+FINETUNED AUDIO DENOISING MODEL VALIDATION REPORT
+===============================================
+
+SUMMARY BY NOISE TYPE
+-----------------
+
+GAUSSIAN_LOW:
+  Average MSE: 0.0016
+  Average SNR: 4.61 dB
+  Average Spectral Convergence: 0.4345
+  Average Processing Time: 1.4029 seconds
+
+GAUSSIAN_HIGH:
+  Average MSE: 0.0029
+  Average SNR: 1.99 dB
+  Average Spectral Convergence: 0.7296
+  Average Processing Time: 1.3635 seconds
+
+WHITE_NOISE:
+  Average MSE: 0.0022
+  Average SNR: 3.16 dB
+  Average Spectral Convergence: 0.6019
+  Average Processing Time: 1.5486 seconds
+
+IMPULSE_NOISE:
+  Average MSE: 0.0025
+  Average SNR: 2.60 dB
+  Average Spectral Convergence: 0.6795
+  Average Processing Time: 1.3785 seconds
+
+COMPARISON WITH BASE MODEL
+------------------------
+AUDIO DENOISING MODEL VALIDATION REPORT
+======================================
+
+SUMMARY BY NOISE TYPE
+-----------------
+
+GAUSSIAN_LOW:
+  Average MSE: 0.0050
+  Average SNR: -0.00 dB
+  Average Spectral Convergence: 0.9999
+  Average Processing Time: 0.1756 seconds
+
+GAUSSIAN_HIGH:
+  Average MSE: 0.0050
+  Average SNR: -0.00 dB
+  Average Spectral Convergence: 0.9999
+  Average Processing Time: 0.1392 seconds
+
+WHITE_NOISE:
+  Average MSE: 0.0050
+  Average SNR: -0.00 dB
+  Average Spectral Convergence: 0.9999
+  Average Processing Time: 0.1563 seconds
+
+IMPULSE_NOISE:
+  Average MSE: 0.0050
+  Average SNR: -0.00 dB
+  Average Spectral Convergence: 0.9999
+  Average Processing Time: 0.1460 seconds
+
+RECOMMENDATIONS:
+---------------
+1. Compare metrics with base model
+2. Analyze performance improvements
+3. Consider further fine-tuning if needed
