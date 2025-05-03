@@ -33,11 +33,6 @@ frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/public/sounds
 Python/ImageDenoise/Validations/validation
-# Adding metrics folder inside Python/ImageDenoise/Validations to .gitignore
-Python/ImageDenoise/Validations/*/metrics/
-
-# Adding metrics folder inside Python/AuidoDenoise/Validations to .gitignore
-Python/AuidoDenoise/Validations/*/metrics/
 
 # Adding model files inside Python/ImageDenoise to .gitignore
 Python/ImageDenoise/**/*.h5
@@ -52,9 +47,26 @@ Python/AuidoDenoise/**/*.weights.h5
 # Adding backend node_modules folder to .gitignore
 backend/node_modules/
 
-# Temporarily ignoring backend and Python folders
-/backend/
-/Python/
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Keep ignoring large model files but allow metrics
+Python/ImageDenoise/**/*.h5
+Python/ImageDenoise/**/*.keras
+Python/ImageDenoise/**/*.weights.h5
+Python/AuidoDenoise/**/*.h5
+Python/AuidoDenoise/**/*.keras
+Python/AuidoDenoise/**/*.weights.h5
+
+# Large training files and numpy arrays
+Python/ImageDenoise/BaseModels/train_images.npy
+Python/ImageDenoise/BaseModels/val_images.npy
+Python/ImageDenoise/BaseModels/training_history.npy
+Python/ImageDenoise/BaseModels/logs/
+Python/AuidoDenoise/BaseModels/training_data/
+Python/AuidoDenoise/BaseModels/validation_data/
 
 *.jpg
 *.jpeg
