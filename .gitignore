@@ -55,7 +55,6 @@ backend/node_modules/
 # Temporarily ignoring backend and Python folders
 /backend/
 /Python/
-/frontend/
 
 *.jpg
 *.jpeg
