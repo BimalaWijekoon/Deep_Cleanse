@@ -69,7 +69,7 @@ const Navbar = ({ isLanding = false }) => {
     <nav className="navbar">
       <div className="navbar-content">
         <Link to="/" className="navbar-logo">
-          <FaHome /> Encoders
+          <FaHome /> DeepCleanse
         </Link>
         
         {isLanding && !loading && !userData && (
@@ -114,4 +114,4 @@ const Navbar = ({ isLanding = false }) => {
   );
 };
 
-export default Navbar; 
+export default Navbar;

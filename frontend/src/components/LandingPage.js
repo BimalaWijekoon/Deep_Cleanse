@@ -262,7 +262,7 @@ const LandingPage = ({ onSelectImage, onSelectAudio }) => {
       
       {/* Main Footer */}
       <footer className="main-footer">
-        <p>All Rights Reserved | <span className="footer-brand">DeepCleanse</span> &copy; {new Date().getFullYear()} | Powered by Deep Learning</p>
+        <p>All Rights Reserved | <span className="footer-brand">DeepCleanse</span> &copy; {new Date().getFullYear()} | Powered by Bimala Wijekoon</p>
       </footer>
       
       {/* Background animation elements */}
@@ -280,4 +280,4 @@ const LandingPage = ({ onSelectImage, onSelectAudio }) => {
   );
 };
 
-export default LandingPage; 
+export default LandingPage;
